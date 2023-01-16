@@ -1,9 +1,13 @@
-const { Sequelize, Op } = require('sequelize');
-const modelCharacter = require('./models/Character.js');
-const modelAbility = require('./models/Ability.js');
-const modelRole = require('./models/Role.js');
+const { Sequelize, Op } = require("sequelize");
+const modelCharacter = require("./models/Character.js");
+const modelAbility = require("./models/Ability.js");
+const modelRole = require("./models/Role.js");
 
-const db = new Sequelize('postgres://franco:12345@localhost:5432/henry_sequelize', {
+const dbUser = "postgres";
+const dbPassword = "Milcien.2015";
+const pgDatabase = "henry_sequelize";
+
+const db = new Sequelize(`postgres://${dbUser}:${dbPassword}@localhost:5432/${pgDatabase}`, {
   logging: false,
 });
 
@@ -14,5 +18,5 @@ modelRole(db);
 module.exports = {
   ...db.models,
   db,
-  Op
-}
+  Op,
+};

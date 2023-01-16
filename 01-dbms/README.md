@@ -3,10 +3,10 @@
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
    <td>
-    <a href="https://airtable.com/shrOlYwXwdTEsT4Cq?prefill_clase=01-dbms">
+    <a href="https://slides.com/soyhenry/m3-01-dbms?token=HsiqQHbe">
    <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
    <br>
-   Hacé click acá para dejar tu feedback sobre esta clase.
+   Hacé click acá para ver los slides
     </a>
    </td>
               <td>
